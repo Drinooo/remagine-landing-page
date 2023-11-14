@@ -4,6 +4,7 @@ import { Footer } from './Footer'
 import { Hero } from '../sections/Hero'
 import { CTA1 } from '../sections/CTA1'
 import { CTA2 } from '../sections/CTA2'
+import { Examples } from '../sections/Examples'
 
 const Base = () => {
   return (
@@ -12,6 +13,7 @@ const Base = () => {
       <Hero />
       <CTA1 />
       <CTA2 />
+      <Examples />
       <Footer />
     </Fragment>
   )
