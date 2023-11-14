@@ -1,16 +1,15 @@
+import { Button } from "@material-tailwind/react";
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Button, Typography } from "@material-tailwind/react";
 
-export const Examples = () => {
+export const ReactSlickCarousel = () => {
   function PreviousArrow(props) {
     const { className, style, onClick } = props;
     return (
       <Button
         variant="outlined"
         className="arrow rounded-none"
+        style={{ ...style, display: "block", position: "absolute", top: 0, left: 0, background: "green" }}
         onClick={onClick}
       >
         <svg
@@ -35,6 +34,7 @@ export const Examples = () => {
       <Button
         variant="outlined"
         className="arrow rounded-none"
+        style={{ display: "block", position: "absolute", top: 0, right: 0, background: "green" }}
         onClick={onClick}
       >
         <svg
@@ -54,10 +54,10 @@ export const Examples = () => {
   }
 
   var settings = {
-    className: "center",
     dots: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
     prevArrow: <PreviousArrow />,
@@ -68,69 +68,57 @@ export const Examples = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          dots: true,
-        },
+          infinite: true,
+          dots: true
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
-        },
+          initialSlide: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
-    <>
-      <div>
-        <div className="text-center">
-          <Typography className="font-main font-[700] text-h2">
-            See Examples
-          </Typography>
-          <Typography className="font-main font-[400] text-caption">
-            Remagine is trained on thousands of beautiful designs, so it’s
-            learnt from the best.
-          </Typography>
+    <div>
+      <h2> Responsive </h2>
+      <Slider {...settings}>
+        <div>
+          <h3>1</h3>
         </div>
-
-        <div className="px-[64px]">
-          <Slider {...settings}>
-            <div className="examples">
-              <img src="/images/image 15617.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15618.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15617.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15618.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15617.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15618.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15617.png" alt="" />
-            </div>
-            <div className="examples">
-              <img src="/images/image 15618.png" alt="" />
-            </div>
-          </Slider>
+        <div>
+          <h3>2</h3>
         </div>
-      </div>
-    </>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>7</h3>
+        </div>
+        <div>
+          <h3>8</h3>
+        </div>
+      </Slider>
+    </div>
   );
 };
