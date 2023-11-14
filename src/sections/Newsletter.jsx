@@ -33,7 +33,7 @@ export const Newsletter = () => {
         </div>
         <img
           className="w-full"
-          src="/images/Illustration 5.png"
+          src="/images/Illustration 4.png"
           alt="dashboard image"
         />
       </div>
