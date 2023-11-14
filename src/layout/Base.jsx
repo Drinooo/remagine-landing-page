@@ -6,6 +6,7 @@ import { CTA1 } from '../sections/CTA1'
 import { CTA2 } from '../sections/CTA2'
 import { Examples } from '../sections/Examples'
 import { ReactSlickCarousel } from '../__test__/ReactSlickCarousel'
+import { Testimonials } from '../sections/Testimonials'
 
 const Base = () => {
   return (
@@ -15,6 +16,7 @@ const Base = () => {
       <CTA1 />
       <CTA2 />
       <Examples />
+      <Testimonials />
       <Footer />
     </Fragment>
   )

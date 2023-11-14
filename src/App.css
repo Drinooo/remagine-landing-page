@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
 
-body{
-  font-family: 'Figtree';
+body {
+  font-family: "Figtree";
 }
 
-.examples{
+.examples {
   border: 2px solid #000;
   box-shadow: 10px 10px 0px 0px #000;
 }
@@ -13,6 +13,15 @@ body{
   margin: auto;
 }
 
-.slick-slide{
+.slick-slide {
   padding: 16px;
 }
+
+.person {
+  border: 2px solid #000;
+  box-shadow: 10px 10px 0px 0px #000;
+}
+ .carousel{
+  display: flex;
+  flex-direction: row;
+ }
