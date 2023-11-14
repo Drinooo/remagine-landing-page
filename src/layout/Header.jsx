@@ -112,7 +112,7 @@ export function ComplexNavbar() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-full p-0 rounded-none shadow-none border-b-2 border-black">
+    <Navbar className="mx-auto max-w-full p-0 rounded-none shadow-none border-0 border-b-2 border-black">
       <div className="relative mx-auto flex items-center justify-between text-blue-gray-900 pl-[64px]">
         <Typography
           as="a"

@@ -35,6 +35,7 @@ module.exports = withMT({
     },
     fontSize: {
       h1: "76px",
+      h2: "48px",
       body: "18px"
     },
     lineHeight: {
