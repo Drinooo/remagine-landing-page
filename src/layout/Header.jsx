@@ -80,7 +80,7 @@ function NavListMenu() {
 
 function NavList() {
   return (
-    <ul className="mt-2 mb-4 flex flex-col gap-[50px] lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
+    <ul className="mt-2 mb-4 flex flex-col lg:gap-[50px] sm:gap-[25px] lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
       {MAIN_ROUTES.map(({ label, icon }, key) => (
         <Typography
           key={label}
@@ -113,7 +113,7 @@ export function ComplexNavbar() {
 
   return (
     <Navbar className="mx-auto max-w-full p-0 rounded-none shadow-none border-0 border-b-2 border-black">
-      <div className="relative mx-auto flex items-center justify-between text-blue-gray-900 pl-[64px]">
+      <div className="relative mx-auto flex items-center justify-between text-blue-gray-900 lg:pl-[64px] sm:pl-[16px]">
         <Typography
           as="a"
           href="#"
@@ -123,6 +123,9 @@ export function ComplexNavbar() {
         </Typography>
         <div className="hidden lg:block">
           <NavList />
+          <AccessButton className="font-main normal-case font-[500] rounded-none">
+            Get Early Access
+          </AccessButton>
         </div>
         <IconButton
           size="sm"
@@ -134,9 +137,7 @@ export function ComplexNavbar() {
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
 
-        <AccessButton
-          className="font-main normal-case font-[500] rounded-none "
-        >
+        <AccessButton className="font-main normal-case font-[500] rounded-none lg:block sm:hidden">
           Get Early Access
         </AccessButton>
       </div>

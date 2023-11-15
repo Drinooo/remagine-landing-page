@@ -35,9 +35,13 @@ module.exports = withMT({
     },
     fontSize: {
       h1: "76px",
+      h1Mobile: "",
       h2: "48px",
+      h2Mobile: "",
       h3: "36px",
+      h3Mobile: "",
       h4: "30px",
+      h4Mobile: "",
       caption: "20px",
       body: "18px"
     },

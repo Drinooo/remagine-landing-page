@@ -54,12 +54,13 @@ export const Examples = () => {
   }
 
   var settings = {
-    className: "center",
-    dots: true,
-    speed: 500,
+    infinite: false,
+    centerPadding: "64px",
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
+    speed: 500,
+    cssEase: "linear",
+    dots: true,
     prevArrow: <PreviousArrow />,
     nextArrow: <NextArrow />,
     responsive: [

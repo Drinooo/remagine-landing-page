@@ -9,10 +9,6 @@ body {
   box-shadow: 10px 10px 0px 0px #000;
 }
 
-.content {
-  margin: auto;
-}
-
 .slick-slide {
   padding: 16px;
 }
@@ -21,6 +17,7 @@ body {
   border: 2px solid #000;
   box-shadow: 10px 10px 0px 0px #000;
 }
+
  .carousel{
   display: flex;
   flex-direction: row;
