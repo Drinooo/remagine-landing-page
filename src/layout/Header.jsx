@@ -123,9 +123,6 @@ export function ComplexNavbar() {
         </Typography>
         <div className="hidden lg:block">
           <NavList />
-          <AccessButton className="font-main normal-case font-[500] rounded-none">
-            Get Early Access
-          </AccessButton>
         </div>
         <IconButton
           size="sm"
