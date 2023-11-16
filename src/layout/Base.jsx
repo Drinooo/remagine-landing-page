@@ -8,6 +8,7 @@ import { Examples } from '../sections/Examples'
 import { ReactSlickCarousel } from '../__test__/ReactSlickCarousel'
 import { Testimonials } from '../sections/Testimonials'
 import { Newsletter } from '../sections/Newsletter'
+import { ReactAliceCarousel } from '../__test__/ReactAliceCarousel'
 
 const Base = () => {
   return (

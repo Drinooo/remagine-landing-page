@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "react-alice-carousel/lib/alice-carousel.css";
 import { Button, Typography } from "@material-tailwind/react";
 
 export const Examples = () => {
@@ -60,15 +61,17 @@ export const Examples = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    arrows: true,
-    prevArrow: <PreviousArrow />,
-    nextArrow: <NextArrow />,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: false,
+    // prevArrow: <PreviousArrow />,
+    // nextArrow: <NextArrow />,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           dots: true,
         },
       },
@@ -76,8 +79,7 @@ export const Examples = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
         },
       },
       {
@@ -103,7 +105,7 @@ export const Examples = () => {
           </Typography>
         </div>
 
-        <div className="px-[64px] max-w-full">
+        <div className="px-[64px] max-w-full pt-[48px]">
           <Slider {...settings}>
             <div className="examples">
               <img src="/images/image 15617.png" alt="" />
