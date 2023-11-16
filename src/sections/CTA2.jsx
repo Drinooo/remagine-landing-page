@@ -3,9 +3,9 @@ import React from "react";
 
 export const CTA2 = () => {
   return (
-    <section className="border-b-2 border-black">
+    <section className="border-b-2 border-black py-[74px]">
       <div className="gap-8 items-center mx-auto max-w-full xl:gap-16 md:grid md:grid-cols-2">
-      <div className="pl-[64px]">
+        <div className="lg:pl-[64px] sm:px-[16px]">
           <Typography className="mb-4 text-h2 tracking-tight font-main font-[700]">
             Generate web design concepts in seconds
           </Typography>

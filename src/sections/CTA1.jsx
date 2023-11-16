@@ -3,14 +3,14 @@ import React from "react";
 
 export const CTA1 = () => {
   return (
-    <section className="border-b-2 border-black">
+    <section className="border-b-2 border-black py-[74px]">
       <div className="gap-8 items-center mx-auto max-w-full xl:gap-16 md:grid md:grid-cols-2">
         <img
           className="w-full"
           src="/images/Illustration 3.png"
           alt="dashboard image"
         />
-        <div className="pr-[64px]">
+        <div className="lg:pr-[64px] sm:px-[16px]">
           <Typography className="mb-4 text-h2 tracking-tight font-main font-[700]">
             Generate web design concepts in seconds
           </Typography>

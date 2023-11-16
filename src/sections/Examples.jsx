@@ -95,7 +95,7 @@ export const Examples = () => {
   return (
     <>
       <div className="border-b-2 border-black py-[74px]">
-        <div className="text-center">
+        <div className="text-center px-[16px]">
           <Typography className="font-main font-[700] text-h2">
             See Examples
           </Typography>
@@ -105,7 +105,7 @@ export const Examples = () => {
           </Typography>
         </div>
 
-        <div className="px-[64px] max-w-full pt-[48px]">
+        <div className="lg:px-[64px] sm:px-[16px] max-w-full pt-[48px]">
           <Slider {...settings}>
             <div className="examples">
               <img src="/images/image 15617.png" alt="" />

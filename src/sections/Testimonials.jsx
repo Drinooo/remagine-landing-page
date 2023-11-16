@@ -15,12 +15,12 @@ export const Testimonials = () => {
   };
 
   return (
-    <section className="border-b-2 border-black">
+    <section className="border-b-2 border-black sm:py-[74px] lg:py-0">
       <Slider {...settings} className="carousel">
         {TESTIMONIALS.map((item) => (
           <div className="">
-            <div className="flex">
-              <div className="w-full p-[64px] border-black">
+            <div className="flex sm:flex-wrap lg:flex-nowrap">
+              <div className="w-full lg:p-[64px] sm:p-[16px] border-black">
                 <img
                   className="w-full person"
                   src={item.img}
@@ -28,7 +28,7 @@ export const Testimonials = () => {
                 />
               </div>
 
-              <div className="p-[64px] flex flex-col justify-center border-black">
+              <div className="lg:p-[64px] sm:p-[0] flex flex-col justify-center border-black">
                 <Typography className="mb-6 font-main font-[600] text-h3">
                   {item.msg}
                 </Typography>

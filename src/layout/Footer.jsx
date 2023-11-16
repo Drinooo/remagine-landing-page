@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="relative w-full">
       <div className="mx-auto w-full max-w-full">
-        <div className="mx-auto flex justify-between max-w-full py-12 px-[64px]">
+        <div className="mx-auto flex flex-wrap justify-between max-w-full py-12 lg:px-[64px] sm:px-[16px] sm:space-y-6 lg:space-y-0">
           <div className="max-w-full">
             <Typography variant="small" className="mb-4 font-bold uppercase">
               <img src="/logo/Remagine.png" alt="" />
@@ -56,7 +56,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex w-full flex-col items-center justify-center border-t-2 border-black py-4 md:flex-row md:justify-between">
-          <div className="flex gap-4 text-black sm:justify-center pl-[64px]">
+          <div className="flex gap-4 text-black sm:justify-center lg:pl-[64px] sm:pl-[0]">
             <Typography
               variant="small"
               className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0 font-main underline"
@@ -76,7 +76,7 @@ export function Footer() {
               Cookies Settings
             </Typography>
           </div>
-          <div className="pr-[64px]">
+          <div className="lg:pr-[64px] sm:pr-[0]">
             <Typography
               variant="small"
               className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0 font-main"
