@@ -10,7 +10,7 @@ export const Examples = () => {
     return (
       <Button
         variant="outlined"
-        className="arrow rounded-none"
+        className="prev-arrow rounded-none"
         onClick={onClick}
       >
         <svg
@@ -34,7 +34,7 @@ export const Examples = () => {
     return (
       <Button
         variant="outlined"
-        className="arrow rounded-none"
+        className="next-arrow rounded-none"
         onClick={onClick}
       >
         <svg
@@ -54,13 +54,13 @@ export const Examples = () => {
   }
 
   var settings = {
+    dots: true,
     infinite: false,
-    centerPadding: "64px",
+    speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    speed: 500,
-    cssEase: "linear",
-    dots: true,
+    initialSlide: 0,
+    arrows: true,
     prevArrow: <PreviousArrow />,
     nextArrow: <NextArrow />,
     responsive: [
@@ -103,7 +103,7 @@ export const Examples = () => {
           </Typography>
         </div>
 
-        <div className="px-[64px]">
+        <div className="px-[64px] max-w-full">
           <Slider {...settings}>
             <div className="examples">
               <img src="/images/image 15617.png" alt="" />
