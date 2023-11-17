@@ -15,7 +15,7 @@ export const Testimonials = () => {
   };
 
   return (
-    <section className="border-b-2 border-black sm:py-[74px] lg:py-0">
+    <section className="border-b-2 border-black sm:py-[54px] lg:py-0">
       <Slider {...settings} className="carousel">
         {TESTIMONIALS.map((item) => (
           <div className="">
@@ -29,7 +29,7 @@ export const Testimonials = () => {
               </div>
 
               <div className="lg:p-[64px] sm:p-[0] flex flex-col justify-center border-black">
-                <Typography className="mb-6 font-main font-[600] text-h3">
+                <Typography className="mb-6 font-main font-[600] lg:text-h3 sm:text-h3Mobile">
                   {item.msg}
                 </Typography>
                 <Typography className="mb-4 text-h4 tracking-tight font-main font-[600]">

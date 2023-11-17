@@ -6,8 +6,8 @@ export const Hero = () => {
   return (
     <section className="max-w-full border-b-2 border-black">
       <div className="grid mx-auto lg:pl-[64px] sm:pl-[0] lg:gap-8 xl:gap-0 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7 space-y-[38px] lg:px-[0] sm:px-[16px] py-[74px]">
-          <Typography className="text-h1 md:text-h1Mobile font-main font-[700] mb-4 tracking-tight leading-none">
+        <div className="mr-auto place-self-center lg:col-span-7 space-y-[38px] lg:px-[0] sm:px-[16px] py-[54px]">
+          <Typography className="lg:text-h1 sm:text-h1Mobile font-main font-[700] mb-4 tracking-tight leading-none">
             Text to Web Design Magic
           </Typography>
           <Typography className="mb-6 font-[400] font-main text-body lg:mb-8">

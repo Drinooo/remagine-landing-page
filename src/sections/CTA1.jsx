@@ -3,7 +3,7 @@ import React from "react";
 
 export const CTA1 = () => {
   return (
-    <section className="border-b-2 border-black py-[74px]">
+    <section className="border-b-2 border-black py-[54px]">
       <div className="gap-8 items-center mx-auto max-w-full xl:gap-16 md:grid md:grid-cols-2">
         <img
           className="w-full"
@@ -11,7 +11,7 @@ export const CTA1 = () => {
           alt="dashboard image"
         />
         <div className="lg:pr-[64px] sm:px-[16px]">
-          <Typography className="mb-4 text-h2 tracking-tight font-main font-[700]">
+          <Typography className="mb-4 lg:text-h2 sm:text-h2Mobile tracking-tight font-main font-[700]">
             Generate web design concepts in seconds
           </Typography>
           <Typography className="mb-6 font-main font-[400] text-body">

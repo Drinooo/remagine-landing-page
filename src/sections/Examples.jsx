@@ -94,9 +94,9 @@ export const Examples = () => {
 
   return (
     <>
-      <div className="border-b-2 border-black py-[74px]">
+      <div className="border-b-2 border-black py-[54px]">
         <div className="text-center px-[16px]">
-          <Typography className="font-main font-[700] text-h2">
+          <Typography className="font-main font-[700] lg:text-h2 sm:text-h2Mobile">
             See Examples
           </Typography>
           <Typography className="font-main font-[400] text-caption">
