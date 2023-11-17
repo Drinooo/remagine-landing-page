@@ -35,7 +35,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg:flex lg:border-l-2 lg:border-t-0 sm:border-t-2 border-black">
-          <img src="/images/Illustration 2.png" alt="Illustration 2" className="w-full sm:p-[16px] lg:p-[0]" />
+          <img src="/images/Illustration 2.png" alt="Illustration 2" className="max-w-full object-contain sm:p-[16px] lg:p-[0]" />
         </div>
       </div>
     </section>
