@@ -15,7 +15,7 @@ export const Hero = () => {
             text description.
           </Typography>
           <div className="max-w-full space-y-[16px]">
-            <div className="mb-6 flex flex-row flex-wrap lg:space-y-6 xl:space-y-0">
+            <div className="mb-6 flex flex-row flex-wrap gap-2">
               <div
                 class="relative mb-3 w-full md:mr-3 md:mb-0 xl:w-96"
                 data-te-input-wrapper-init
